@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AircModel" representedClassName="AircModel" syncable="YES" codeGenerationType="class">
+        <attribute name="airFHours" optional="YES" attributeType="String"/>
+        <attribute name="airLastIns" optional="YES" attributeType="String"/>
+        <attribute name="airModel" optional="YES" attributeType="String"/>
+        <attribute name="airNumFlights" optional="YES" attributeType="String"/>
+        <attribute name="airSerial" optional="YES" attributeType="String"/>
+        <attribute name="airType" optional="YES" attributeType="String"/>
+        <attribute name="airUpIns" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PastModel" representedClassName="PastModel" syncable="YES" codeGenerationType="class">
+        <attribute name="pastDate" optional="YES" attributeType="String"/>
+        <attribute name="pastET" optional="YES" attributeType="String"/>
+        <attribute name="pastFC" optional="YES" attributeType="String"/>
+        <attribute name="pastFuel" optional="YES" attributeType="String"/>
+        <attribute name="pastModel" optional="YES" attributeType="String"/>
+        <attribute name="pastPartsType" optional="YES" attributeType="String"/>
+        <attribute name="pastSerial" optional="YES" attributeType="String"/>
+        <attribute name="pastType" optional="YES" attributeType="String"/>
+    </entity>
+</model>

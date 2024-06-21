@@ -11,6 +11,31 @@
 		782FEFCB2C233E1900B1AB2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFCA2C233E1900B1AB2F /* ContentView.swift */; };
 		782FEFCD2C233E1A00B1AB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782FEFCC2C233E1A00B1AB2F /* Assets.xcassets */; };
 		782FEFD12C233E1A00B1AB2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782FEFD02C233E1A00B1AB2F /* Preview Assets.xcassets */; };
+		782FEFE12C233EAF00B1AB2F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782FEFE02C233EAF00B1AB2F /* Launch Screen.storyboard */; };
+		782FEFE32C233EB700B1AB2F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFE22C233EB700B1AB2F /* LoadingView.swift */; };
+		782FEFE52C233EC300B1AB2F /* R1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFE42C233EC300B1AB2F /* R1.swift */; };
+		782FEFE72C233ECA00B1AB2F /* R2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFE62C233ECA00B1AB2F /* R2.swift */; };
+		782FEFE92C233ECF00B1AB2F /* R3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFE82C233ECF00B1AB2F /* R3.swift */; };
+		782FEFEB2C233ED500B1AB2F /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFEA2C233ED500B1AB2F /* U1.swift */; };
+		782FEFED2C233EDB00B1AB2F /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFEC2C233EDB00B1AB2F /* Reviews.swift */; };
+		782FEFEF2C233EE200B1AB2F /* Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFEE2C233EE200B1AB2F /* Not.swift */; };
+		782FEFF12C233EE800B1AB2F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFF02C233EE800B1AB2F /* TabBar.swift */; };
+		782FEFF32C233EF000B1AB2F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFF22C233EF000B1AB2F /* CoreDataStack.swift */; };
+		782FEFF52C233EF800B1AB2F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFF42C233EF800B1AB2F /* Array.swift */; };
+		782FEFF72C233F0400B1AB2F /* ConvertDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFF62C233F0400B1AB2F /* ConvertDate.swift */; };
+		782FEFFA2C233F1100B1AB2F /* CoreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFF82C233F1100B1AB2F /* CoreModel.xcdatamodeld */; };
+		782FF0002C233F4500B1AB2F /* AircraftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FEFFF2C233F4500B1AB2F /* AircraftsView.swift */; };
+		782FF0022C233F4D00B1AB2F /* MaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF0012C233F4D00B1AB2F /* MaintenanceView.swift */; };
+		782FF0042C233F5600B1AB2F /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF0032C233F5600B1AB2F /* AnalyticsView.swift */; };
+		782FF0062C233F5E00B1AB2F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF0052C233F5E00B1AB2F /* SettingsView.swift */; };
+		782FF0082C2340B200B1AB2F /* AircraftsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF0072C2340B200B1AB2F /* AircraftsViewModel.swift */; };
+		782FF00B2C245F9800B1AB2F /* AddAircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF00A2C245F9800B1AB2F /* AddAircraft.swift */; };
+		782FF00E2C24695C00B1AB2F /* AirDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF00D2C24695C00B1AB2F /* AirDetail.swift */; };
+		782FF0102C247ABA00B1AB2F /* MaintenanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF00F2C247ABA00B1AB2F /* MaintenanceViewModel.swift */; };
+		782FF0132C247D5700B1AB2F /* AirChoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF0122C247D5700B1AB2F /* AirChoose.swift */; };
+		782FF0162C248EF400B1AB2F /* AddPast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF0152C248EF400B1AB2F /* AddPast.swift */; };
+		782FF0192C24CABB00B1AB2F /* PastDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF0182C24CABB00B1AB2F /* PastDetail.swift */; };
+		782FF01B2C24CE1200B1AB2F /* AnalyticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FF01A2C24CE1200B1AB2F /* AnalyticsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +45,31 @@
 		782FEFCC2C233E1A00B1AB2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		782FEFCE2C233E1A00B1AB2F /* App560.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App560.entitlements; sourceTree = "<group>"; };
 		782FEFD02C233E1A00B1AB2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		782FEFE02C233EAF00B1AB2F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		782FEFE22C233EB700B1AB2F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		782FEFE42C233EC300B1AB2F /* R1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R1.swift; sourceTree = "<group>"; };
+		782FEFE62C233ECA00B1AB2F /* R2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R2.swift; sourceTree = "<group>"; };
+		782FEFE82C233ECF00B1AB2F /* R3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3.swift; sourceTree = "<group>"; };
+		782FEFEA2C233ED500B1AB2F /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
+		782FEFEC2C233EDB00B1AB2F /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		782FEFEE2C233EE200B1AB2F /* Not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Not.swift; sourceTree = "<group>"; };
+		782FEFF02C233EE800B1AB2F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		782FEFF22C233EF000B1AB2F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		782FEFF42C233EF800B1AB2F /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		782FEFF62C233F0400B1AB2F /* ConvertDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDate.swift; sourceTree = "<group>"; };
+		782FEFF92C233F1100B1AB2F /* CoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreModel.xcdatamodel; sourceTree = "<group>"; };
+		782FEFFF2C233F4500B1AB2F /* AircraftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftsView.swift; sourceTree = "<group>"; };
+		782FF0012C233F4D00B1AB2F /* MaintenanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceView.swift; sourceTree = "<group>"; };
+		782FF0032C233F5600B1AB2F /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		782FF0052C233F5E00B1AB2F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		782FF0072C2340B200B1AB2F /* AircraftsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftsViewModel.swift; sourceTree = "<group>"; };
+		782FF00A2C245F9800B1AB2F /* AddAircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAircraft.swift; sourceTree = "<group>"; };
+		782FF00D2C24695C00B1AB2F /* AirDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirDetail.swift; sourceTree = "<group>"; };
+		782FF00F2C247ABA00B1AB2F /* MaintenanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceViewModel.swift; sourceTree = "<group>"; };
+		782FF0122C247D5700B1AB2F /* AirChoose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirChoose.swift; sourceTree = "<group>"; };
+		782FF0152C248EF400B1AB2F /* AddPast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPast.swift; sourceTree = "<group>"; };
+		782FF0182C24CABB00B1AB2F /* PastDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastDetail.swift; sourceTree = "<group>"; };
+		782FF01A2C24CE1200B1AB2F /* AnalyticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +102,7 @@
 		782FEFC72C233E1900B1AB2F /* App560 */ = {
 			isa = PBXGroup;
 			children = (
+				782FEFD72C233E3E00B1AB2F /* Project */,
 				782FEFC82C233E1900B1AB2F /* App560App.swift */,
 				782FEFCA2C233E1900B1AB2F /* ContentView.swift */,
 				782FEFCC2C233E1A00B1AB2F /* Assets.xcassets */,
@@ -67,6 +118,174 @@
 				782FEFD02C233E1A00B1AB2F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		782FEFD72C233E3E00B1AB2F /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				782FEFDB2C233E6400B1AB2F /* Views */,
+				782FEFDA2C233E5D00B1AB2F /* Extensions */,
+				782FEFD92C233E5800B1AB2F /* TabBar */,
+				782FEFD82C233E4700B1AB2F /* StartScreens */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		782FEFD82C233E4700B1AB2F /* StartScreens */ = {
+			isa = PBXGroup;
+			children = (
+				782FEFDE2C233E7700B1AB2F /* Rev */,
+				782FEFDD2C233E7100B1AB2F /* Loading */,
+				782FEFDC2C233E6A00B1AB2F /* Launch */,
+			);
+			path = StartScreens;
+			sourceTree = "<group>";
+		};
+		782FEFD92C233E5800B1AB2F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				782FEFF02C233EE800B1AB2F /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		782FEFDA2C233E5D00B1AB2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				782FEFF22C233EF000B1AB2F /* CoreDataStack.swift */,
+				782FEFF42C233EF800B1AB2F /* Array.swift */,
+				782FEFF62C233F0400B1AB2F /* ConvertDate.swift */,
+				782FEFF82C233F1100B1AB2F /* CoreModel.xcdatamodeld */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		782FEFDB2C233E6400B1AB2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				782FEFFE2C233F3700B1AB2F /* Settings */,
+				782FEFFD2C233F3000B1AB2F /* Analytics */,
+				782FEFFC2C233F2700B1AB2F /* Maintenance */,
+				782FEFFB2C233F2000B1AB2F /* Aircrafts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		782FEFDC2C233E6A00B1AB2F /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				782FEFE02C233EAF00B1AB2F /* Launch Screen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		782FEFDD2C233E7100B1AB2F /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				782FEFE22C233EB700B1AB2F /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		782FEFDE2C233E7700B1AB2F /* Rev */ = {
+			isa = PBXGroup;
+			children = (
+				782FEFDF2C233EA200B1AB2F /* User */,
+				782FEFE42C233EC300B1AB2F /* R1.swift */,
+				782FEFE62C233ECA00B1AB2F /* R2.swift */,
+				782FEFE82C233ECF00B1AB2F /* R3.swift */,
+			);
+			path = Rev;
+			sourceTree = "<group>";
+		};
+		782FEFDF2C233EA200B1AB2F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				782FEFEA2C233ED500B1AB2F /* U1.swift */,
+				782FEFEC2C233EDB00B1AB2F /* Reviews.swift */,
+				782FEFEE2C233EE200B1AB2F /* Not.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		782FEFFB2C233F2000B1AB2F /* Aircrafts */ = {
+			isa = PBXGroup;
+			children = (
+				782FF00C2C24694C00B1AB2F /* AIrDetail */,
+				782FF0092C245F8C00B1AB2F /* AddAircraft */,
+				782FEFFF2C233F4500B1AB2F /* AircraftsView.swift */,
+				782FF0072C2340B200B1AB2F /* AircraftsViewModel.swift */,
+			);
+			path = Aircrafts;
+			sourceTree = "<group>";
+		};
+		782FEFFC2C233F2700B1AB2F /* Maintenance */ = {
+			isa = PBXGroup;
+			children = (
+				782FF0172C24CAAF00B1AB2F /* PastDetail */,
+				782FF0142C248EEB00B1AB2F /* AddPast */,
+				782FF0112C247D4000B1AB2F /* AirChoose */,
+				782FF0012C233F4D00B1AB2F /* MaintenanceView.swift */,
+				782FF00F2C247ABA00B1AB2F /* MaintenanceViewModel.swift */,
+			);
+			path = Maintenance;
+			sourceTree = "<group>";
+		};
+		782FEFFD2C233F3000B1AB2F /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				782FF0032C233F5600B1AB2F /* AnalyticsView.swift */,
+				782FF01A2C24CE1200B1AB2F /* AnalyticsViewModel.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		782FEFFE2C233F3700B1AB2F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				782FF0052C233F5E00B1AB2F /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		782FF0092C245F8C00B1AB2F /* AddAircraft */ = {
+			isa = PBXGroup;
+			children = (
+				782FF00A2C245F9800B1AB2F /* AddAircraft.swift */,
+			);
+			path = AddAircraft;
+			sourceTree = "<group>";
+		};
+		782FF00C2C24694C00B1AB2F /* AIrDetail */ = {
+			isa = PBXGroup;
+			children = (
+				782FF00D2C24695C00B1AB2F /* AirDetail.swift */,
+			);
+			path = AIrDetail;
+			sourceTree = "<group>";
+		};
+		782FF0112C247D4000B1AB2F /* AirChoose */ = {
+			isa = PBXGroup;
+			children = (
+				782FF0122C247D5700B1AB2F /* AirChoose.swift */,
+			);
+			path = AirChoose;
+			sourceTree = "<group>";
+		};
+		782FF0142C248EEB00B1AB2F /* AddPast */ = {
+			isa = PBXGroup;
+			children = (
+				782FF0152C248EF400B1AB2F /* AddPast.swift */,
+			);
+			path = AddPast;
+			sourceTree = "<group>";
+		};
+		782FF0172C24CAAF00B1AB2F /* PastDetail */ = {
+			isa = PBXGroup;
+			children = (
+				782FF0182C24CABB00B1AB2F /* PastDetail.swift */,
+			);
+			path = PastDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782FEFE12C233EAF00B1AB2F /* Launch Screen.storyboard in Resources */,
 				782FEFD12C233E1A00B1AB2F /* Preview Assets.xcassets in Resources */,
 				782FEFCD2C233E1A00B1AB2F /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +359,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782FF00E2C24695C00B1AB2F /* AirDetail.swift in Sources */,
+				782FF0162C248EF400B1AB2F /* AddPast.swift in Sources */,
+				782FEFF72C233F0400B1AB2F /* ConvertDate.swift in Sources */,
 				782FEFCB2C233E1900B1AB2F /* ContentView.swift in Sources */,
 				782FEFC92C233E1900B1AB2F /* App560App.swift in Sources */,
+				782FF0192C24CABB00B1AB2F /* PastDetail.swift in Sources */,
+				782FF0062C233F5E00B1AB2F /* SettingsView.swift in Sources */,
+				782FF01B2C24CE1200B1AB2F /* AnalyticsViewModel.swift in Sources */,
+				782FEFEB2C233ED500B1AB2F /* U1.swift in Sources */,
+				782FEFE92C233ECF00B1AB2F /* R3.swift in Sources */,
+				782FEFE52C233EC300B1AB2F /* R1.swift in Sources */,
+				782FF0132C247D5700B1AB2F /* AirChoose.swift in Sources */,
+				782FEFED2C233EDB00B1AB2F /* Reviews.swift in Sources */,
+				782FEFF32C233EF000B1AB2F /* CoreDataStack.swift in Sources */,
+				782FF0082C2340B200B1AB2F /* AircraftsViewModel.swift in Sources */,
+				782FF0042C233F5600B1AB2F /* AnalyticsView.swift in Sources */,
+				782FF0002C233F4500B1AB2F /* AircraftsView.swift in Sources */,
+				782FEFE72C233ECA00B1AB2F /* R2.swift in Sources */,
+				782FEFEF2C233EE200B1AB2F /* Not.swift in Sources */,
+				782FEFF52C233EF800B1AB2F /* Array.swift in Sources */,
+				782FEFE32C233EB700B1AB2F /* LoadingView.swift in Sources */,
+				782FEFFA2C233F1100B1AB2F /* CoreModel.xcdatamodeld in Sources */,
+				782FF0102C247ABA00B1AB2F /* MaintenanceViewModel.swift in Sources */,
+				782FF00B2C245F9800B1AB2F /* AddAircraft.swift in Sources */,
+				782FF0022C233F4D00B1AB2F /* MaintenanceView.swift in Sources */,
+				782FEFF12C233EE800B1AB2F /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,17 +516,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App560/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AeroCheck;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -290,10 +536,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App560;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,17 +555,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App560/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AeroCheck;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
@@ -326,10 +575,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App560;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -355,6 +605,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		782FEFF82C233F1100B1AB2F /* CoreModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				782FEFF92C233F1100B1AB2F /* CoreModel.xcdatamodel */,
+			);
+			currentVersion = 782FEFF92C233F1100B1AB2F /* CoreModel.xcdatamodel */;
+			name = CoreModel.xcdatamodeld;
+			path = /Users/igor/Documents/Applications/App560/App560/Project/Extensions/CoreModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 782FEFBD2C233E1900B1AB2F /* Project object */;
 }
